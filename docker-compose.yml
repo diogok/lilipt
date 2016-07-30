@@ -1,0 +1,10 @@
+version: "2"
+services:
+  app:
+    image: "diogok/php7"
+    ports:
+      - 8080:80
+    volumes:
+      - .:/var/www
+
+
